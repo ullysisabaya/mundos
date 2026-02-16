@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="home-style.css">
+</head>
+<body>
+    <h1> KINLYSIS </h1>  <br><br><br>
+
+    <p id="introduction"> Your homebase for premium service provision! </p>
+    <div class="first-question">
+        <p> Are you a : </p> <br>
+
+       
+        <div id="button-option"> 
+            <button onclick="changeOpacity()">Provider</button>
+     
+                        
+            <button onclick="scrollToSection2()">Requester</button>
+        </div>
+    </div>  <br>
+
+        <p>Don't have an account. <a href="#"> Register</a> now</p>
+
+
+
+<br><br><br>
+
+    <div class="login-forms">
+        <section id="provider-section">
+        <p> ~Enter login details~ </p>
+        <form action="" id="buyer-login">
+
+            <label for="u-name"> Username:
+                <input type="text" id="u-name" >  
+            </label>   <br><br>
+
+            <label for="b-name"> Business name:
+                <input type="text" id="b-name" >   
+            </label>   <br><br>
+
+            <label for="i-name"> Account ID Number:
+                <input type="number" id="i-name" >
+            </label>   <br><br>
+
+            <label for="p-word"> Password:
+                <input type="text" id="p-word" >
+            </label>   <br><br>
+
+
+
+
+
+
+
+        </form>
+        </section>
+
+        <section id="requester-section">
+        <p> ~Enter login details~ </p>
+        <form action="" id="seller-login">
+            <label for="rname">Requester Username:
+                <input type="text" id="rname">
+            </label> <br><br>
+
+            <label for="p-name">Password:
+                <input type="text" id="p-name">
+            </label> <br><br>
+
+            <label for="id-num">Account ID Number:
+                <input type="text" id="id-num">
+            </label>
+
+        </form>
+        </section>
+
+    </div>
+    
+    
+    
+    
+    <br><br><br><br>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <script>
+        function changeOpacity() {
+            var section1 = document.getElementById('section1');
+            section1.style.opacity = '80%'
+        }
+
+    </script>
+
+</body>
+</html>
